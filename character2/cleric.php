@@ -114,11 +114,14 @@
         }
     
 
-        
+        /*
         if(isset($_POST["theCharacterRace"]))
         {
             $characterRace = $_POST["theCharacterRace"];
         }
+        */
+
+        $characterRace = "Human";
     
             
         if(isset($_POST["theAlignment"]))
@@ -331,7 +334,7 @@
     $saveMatrix = savingThrowMatrix ($level);
 
     
-    $characterRaceTraits = demiHumanTraits ($characterRace);
+   $characterRaceTraits = demiHumanTraits ($characterRace);
     
     $movementRate = moveRate ($totalWeightCarried, $characterRace);
     

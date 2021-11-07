@@ -1,38 +1,35 @@
 <?php
 
-/*Fighter*/
+/*Cleric*/
 
 function thaco($level)
 {
     $toHit = 19;
     
-    if($level == 2)
+    if($level >= 4 && $level <=5)
     {
         $toHit = 18;
     }
-    else if($level >= 3 && $level <=4)
+    else if($level >= 6 && $level <=7)
     {
         $toHit = 17;
     }
-    else if($level == 5)
+    else if($level == 8)
     {
         $toHit = 16;
     }
-    else if($level >= 6 && $level <=7)
+    else if($level == 9)
     {
         $toHit = 15;
     }
-    else if($level == 8)
+    else if($level == 10)
     {
         $toHit = 14;
-    }
-    else if($level >= 9 && $level <=10)
-    {
-        $toHit = 13;
     }
     
     return $toHit;
 }
+
 
 
 
