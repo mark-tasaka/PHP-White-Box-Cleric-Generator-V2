@@ -5,6 +5,12 @@ The White Box Fantastic Medieval Adventure Game Cleric Character Generator (vers
 ------------------
 
 
+Update 1.01: 2021-11-06
+
+Updates to cleric.php, classDetails.php and thaco.php.
+
+
+
 Initial commit: 2021-11-05
 
 The intial commit for the Cleric Character Generator Version 2.
