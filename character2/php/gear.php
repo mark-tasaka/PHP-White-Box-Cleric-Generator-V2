@@ -50,9 +50,9 @@ function getGear($input)
 
 function getRandomGear()
 {
-        $hasGear = array(0, 6, 30, 31);
+        $hasGear = array(0, 11, 13, 6, 30, 31);
 
-        $gear = array(1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 26, 27, 28, 32);
+        $gear = array(1, 2, 3, 4, 5, 7, 8, 9, 10, 12, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 26, 27, 28, 32);
 
         shuffle($gear);
 

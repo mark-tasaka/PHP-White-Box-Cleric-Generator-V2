@@ -275,7 +275,7 @@
     
             $weaponCount = count($weaponArray);
     
-    
+    /*
             for($i = 0; $i < $weaponCount; ++$i)
             {
     
@@ -294,7 +294,7 @@
                     array_push($gearArray, 36);
                 }
     
-            }
+            }*/
     
         }
         else
