@@ -666,4 +666,296 @@ body{
 
 
 
+#spellLevelTitle{
+    position:absolute;
+    top: 1059px;
+    left: 121px;
+	font-size: 0.6em;
+}
+
+#spellNumberTitle{
+    position:absolute;
+    top: 1079px;
+    left: 95px;
+	font-size: 0.6em;
+}
+
+#spellsLevel1{
+    position:absolute;
+    top: 1059px;
+    left: 220px;
+	font-size: 0.6em;
+}
+
+
+#spellsLevel2{
+    position:absolute;
+    top: 1059px;
+    left: 260px;
+	font-size: 0.6em;
+}
+
+#spellsLevel3{
+    position:absolute;
+    top: 1059px;
+    left: 300px;
+	font-size: 0.6em;
+}
+
+#spellsLevel4{
+    position:absolute;
+    top: 1059px;
+    left: 342px;
+	font-size: 0.6em;
+}
+
+#spellsLevel5{
+    position:absolute;
+    top: 1059px;
+    left: 386px;
+	font-size: 0.6em;
+}
+
+#spellsLevel6{
+    position:absolute;
+    top: 1059px;
+    left: 428px;
+	font-size: 0.6em;
+}
+
+#spellLine{
+    position:absolute;
+    top: 1062px;
+    left: 205px;
+	font-size: 0.6em;
+    font-weight: bold;
+}
+
+
+#spellsForLevel1{
+    position:absolute;
+    top: 1080px;
+    left: 220px;
+	font-size: 0.6em;
+}
+
+
+#spellsForLevel2{
+    position:absolute;
+    top: 1080px;
+    left: 260px;
+	font-size: 0.6em;
+}
+
+#spellsForLevel3{
+    position:absolute;
+    top: 1080px;
+    left: 300px;
+	font-size: 0.6em;
+}
+
+#spellsForLevel4{
+    position:absolute;
+    top: 1080px;
+    left: 342px;
+	font-size: 0.6em;
+}
+
+#spellsForLevel5{
+    position:absolute;
+    top: 1080px;
+    left: 386px;
+	font-size: 0.6em;
+}
+
+#spellsForLevel6{
+    position:absolute;
+    top: 1080px;
+    left: 428px;
+	font-size: 0.6em;
+}
+
+#turnUndeadTitle{
+    position:absolute;
+    top: 995px;
+    left: 95px;
+	font-size: 0.5em;
+}
+
+#turnHeader1{
+    position:absolute;
+    top: 1010px;
+    left: 95px;
+	font-size: 0.6em;
+}
+
+#turnHeader2{
+    position:absolute;
+    top: 1010px;
+    left: 135px;
+	font-size: 0.6em;
+}
+
+#turnHeader3{
+    position:absolute;
+    top: 1010px;
+    left: 165px;
+	font-size: 0.6em;
+}
+
+
+#turnHeader4{
+    position:absolute;
+    top: 1010px;
+    left: 200px;
+	font-size: 0.6em;
+}
+
+#turnHeader5{
+    position:absolute;
+    top: 1010px;
+    left: 235px;
+	font-size: 0.6em;
+}
+
+#turnHeader6{
+    position:absolute;
+    top: 1010px;
+    left: 270px;
+	font-size: 0.6em;
+}
+
+#turnHeader7{
+    position:absolute;
+    top: 1010px;
+    left: 305px;
+	font-size: 0.6em;
+}
+
+#turnHeader8{
+    position:absolute;
+    top: 1010px;
+    left: 340px;
+	font-size: 0.6em;
+}
+
+#turnHeader9{
+    position:absolute;
+    top: 1010px;
+    left: 375px;
+	font-size: 0.6em;
+}
+
+
+
+#turnHeader10{
+    position:absolute;
+    top: 1010px;
+    left: 408px;
+	font-size: 0.6em;
+}
+
+#turnHeader11{
+    position:absolute;
+    top: 1010px;
+    left: 446px;
+	font-size: 0.6em;
+}
+
+#turnHeader12{
+    position:absolute;
+    top: 1010px;
+    left: 503px;
+	font-size: 0.6em;
+}
+
+#turnLine{
+    position:absolute;
+    top: 1011px;
+    left: 95px;
+	font-size: 0.6em;
+}
+
+
+
+#turnAbility1{
+    position:absolute;
+    top: 1031px;
+    left: 135px;
+	font-size: 0.6em;
+}
+
+#turnAbility2{
+    position:absolute;
+    top: 1031px;
+    left: 165px;
+	font-size: 0.6em;
+}
+
+
+#turnAbility3{
+    position:absolute;
+    top: 1031px;
+    left: 200px;
+	font-size: 0.6em;
+}
+
+#turnAbility4{
+    position:absolute;
+    top: 1031px;
+    left: 235px;
+	font-size: 0.6em;
+}
+
+#turnAbility5{
+    position:absolute;
+    top: 1031px;
+    left: 270px;
+	font-size: 0.6em;
+}
+
+#turnAbility6{
+    position:absolute;
+    top: 1031px;
+    left: 305px;
+	font-size: 0.6em;
+}
+
+#turnAbility7{
+    position:absolute;
+    top: 1031px;
+    left: 340px;
+	font-size: 0.6em;
+}
+
+#turnAbility8{
+    position:absolute;
+    top: 1031px;
+    left: 375px;
+	font-size: 0.6em;
+}
+
+
+
+#turnAbility9{
+    position:absolute;
+    top: 1031px;
+    left: 412px;
+	font-size: 0.6em;
+}
+
+#turnAbility10{
+    position:absolute;
+    top: 1031px;
+    left: 454px;
+	font-size: 0.6em;
+}
+
+#turnAbility11{
+    position:absolute;
+    top: 1031px;
+    left: 503px;
+	font-size: 0.6em;
+}
+
 

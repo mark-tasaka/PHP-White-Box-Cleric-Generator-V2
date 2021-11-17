@@ -40,6 +40,8 @@
     include 'php/primeReq.php';
     include 'php/classAbilities.php';
     include 'php/addLanguages.php';
+    include 'php/spells.php';
+    include 'php/turnUndead.php';
     
     
         if(isset($_POST["theCharacterName"]))
@@ -357,11 +359,60 @@
     
     $dwarfSaveMagic = dwarfSaveMod ($characterRace);
 
-    $exBonus = exBonus ($strength, $wisdom, $charisma);
+    $wisdomPrime = $wisdom;
+
+    $exBonus = exBonus ($wisdomPrime, $wisdom, $charisma);
 
     $hirelings = hirelings($charisma);
 
     $specialAbility = specialAbility();
+
+        
+    $spellLevel1 = spellLevels($level)[0];
+    $spellLevel2 = spellLevels($level)[1];
+    $spellLevel3 = spellLevels($level)[2];
+    $spellLevel4 = spellLevels($level)[3];
+    $spellLevel5 = spellLevels($level)[4];
+    
+    $spellLine = spellLine ($level);
+    
+    $spellsForLevel1 = spellsEachLevel($level)[0];
+    $spellsForLevel2 = spellsEachLevel($level)[1];
+    $spellsForLevel3 = spellsEachLevel($level)[2];
+    $spellsForLevel4 = spellsEachLevel($level)[3];
+    $spellsForLevel5 = spellsEachLevel($level)[4];
+    
+    $spellLevelTitle = spellHeader1 ($level);
+    $spellNumberTitle = spellHeader2 ($level);
+    
+    $turnHeader1 = turnHeader ($level)[0];
+    $turnHeader2 = turnHeader ($level)[1];
+    $turnHeader3 = turnHeader ($level)[2];
+    $turnHeader4 = turnHeader ($level)[3];
+    $turnHeader5 = turnHeader ($level)[4];
+    $turnHeader6 = turnHeader ($level)[5];
+    $turnHeader7 = turnHeader ($level)[6];
+    $turnHeader8 = turnHeader ($level)[7];
+    $turnHeader9 = turnHeader ($level)[8];
+    
+    $turnHeader10 = turnHeader ($level)[9];
+    $turnHeader11 = turnHeader ($level)[10];
+    $turnHeader12 = turnHeader ($level)[11];
+    
+    $turnLine = turnLine ($level);
+    
+    $turnAbility1 = turnAbility ($level)[0];
+    $turnAbility2 = turnAbility ($level)[1];
+    $turnAbility3 = turnAbility ($level)[2];
+    $turnAbility4 = turnAbility ($level)[3];
+    $turnAbility5 = turnAbility ($level)[4];
+    $turnAbility6 = turnAbility ($level)[5];
+    $turnAbility7 = turnAbility ($level)[6];
+    $turnAbility8 = turnAbility ($level)[7];
+    $turnAbility9 = turnAbility ($level)[8];
+    
+    $turnAbility10 = turnAbility ($level)[9];
+    $turnAbility11 = turnAbility ($level)[10];
     
     ?>
 
@@ -843,6 +894,240 @@
            ?>
        </span>
        
+       
+       <span id=spellLevelTitle>
+           <?php
+           echo $spellLevelTitle;
+           ?>
+       </span>
+       
+       
+       <span id=spellNumberTitle>
+           <?php
+           echo $spellNumberTitle;
+           ?>
+       </span>
+       
+   
+       <span id="spellsLevel1">
+           <?php
+           echo $spellLevel1;
+           ?>
+       </span>
+       
+       <span id="spellsLevel2">
+           <?php
+           echo $spellLevel2;
+           ?>
+       </span> 
+       
+       <span id="spellsLevel3">
+           <?php
+           echo $spellLevel3;
+           ?>
+       </span>       
+       
+       <span id="spellsLevel4">
+           <?php
+           echo $spellLevel4;
+           ?>
+       </span>       
+       
+       <span id="spellsLevel5">
+           <?php
+           echo $spellLevel5;
+           ?>
+       </span>       
+       
+       <span id="spellLine">
+       
+           <?php
+           echo $spellLine;
+           ?>
+           
+       </span>
+       
+       
+       <span id="spellsForLevel1">
+       <?php
+           echo $spellsForLevel1;
+           ?>
+       </span>
+       
+       <span id="spellsForLevel2">
+       <?php
+           echo $spellsForLevel2;
+           ?>
+       </span>
+       
+       <span id="spellsForLevel3">
+       <?php
+           echo $spellsForLevel3;
+           ?>
+       </span>
+       
+       <span id="spellsForLevel4">
+       <?php
+           echo $spellsForLevel4;
+           ?>
+       </span>
+       
+       <span id="spellsForLevel5">
+       <?php
+           echo $spellsForLevel5;
+           ?>
+       </span>
+       
+       <span id="turnUndeadTitle">TURN UNDEAD:</span>
+       
+       
+       <span id="turnHeader1">
+           <?php
+                echo $turnHeader1;                             
+            ?>
+       </span>
+       
+       <span id="turnHeader2">
+           <?php
+                echo $turnHeader2;                             
+            ?>
+       </span>
+       
+       <span id="turnHeader3">
+           <?php
+                echo $turnHeader3;                             
+            ?>
+       </span>
+       
+       <span id="turnHeader4">
+           <?php
+                echo $turnHeader4;                             
+            ?>
+       </span>
+       
+       <span id="turnHeader5">
+           <?php
+                echo $turnHeader5;                             
+            ?>
+       </span>
+       
+       <span id="turnHeader6">
+           <?php
+                echo $turnHeader6;                             
+            ?>
+       </span>
+       
+       
+       <span id="turnHeader7">
+           <?php
+                echo $turnHeader7;                             
+            ?>
+       </span>
+       
+       <span id="turnHeader8">
+           <?php
+                echo $turnHeader8;                             
+            ?>
+       </span>
+       
+       <span id="turnHeader9">
+           <?php
+                echo $turnHeader9;                             
+            ?>
+       </span>
+       
+       <span id="turnHeader10">
+           <?php
+                echo $turnHeader10;                             
+            ?>
+       </span>
+       
+       <span id="turnHeader11">
+           <?php
+                echo $turnHeader11;                             
+            ?>
+       </span>
+       
+       <span id="turnHeader12">
+           <?php
+                echo $turnHeader12;                             
+            ?>
+       </span>
+       
+       <span id="turnLine">
+       
+       <?php
+           echo $turnLine;
+           ?>
+       </span>
+       
+       
+              <span id="turnAbility1">
+           <?php
+                echo $turnAbility1;                             
+            ?>
+       </span>
+       
+       <span id="turnAbility2">
+           <?php
+                echo $turnAbility2;                             
+            ?>
+       </span>
+       
+       <span id="turnAbility3">
+           <?php
+                echo $turnAbility3;                             
+            ?>
+       </span>
+       
+       <span id="turnAbility4">
+           <?php
+                echo $turnAbility4;                             
+            ?>
+       </span>
+       
+       <span id="turnAbility5">
+           <?php
+                echo $turnAbility5;                             
+            ?>
+       </span>
+       
+       <span id="turnAbility6">
+           <?php
+                echo $turnAbility6;                             
+            ?>
+       </span>
+       
+       
+       <span id="turnAbility7">
+           <?php
+                echo $turnAbility7;                             
+            ?>
+       </span>
+       
+       <span id="turnAbility8">
+           <?php
+                echo $turnAbility8;                             
+            ?>
+       </span>
+       
+       <span id="turnAbility9">
+           <?php
+                echo $turnAbility9;                             
+            ?>
+       </span>
+       
+       <span id="turnAbility10">
+           <?php
+                echo $turnAbility10;                             
+            ?>
+       </span>
+       
+       <span id="turnAbility11">
+           <?php
+                echo $turnAbility11;                             
+            ?>
+       </span>
 
        
 	</section>
