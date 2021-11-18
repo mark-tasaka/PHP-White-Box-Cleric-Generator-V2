@@ -5,6 +5,14 @@ The White Box Fantastic Medieval Adventure Game Cleric Character Generator (vers
 ------------------
 
 
+
+
+Update 1.04: 2021-11-18
+
+Updates to cleric.php, wb_cleric.css and hitPoints.php.  
+
+
+
 Update 1.03: 2021-11-17
 
 Updates to cleric.php, wb_cleric.css and classAbilities.php.  New files added: spells.php and turnUndead.php.
