@@ -216,7 +216,7 @@ body{
 
 #saveMatrix{
     position:absolute;
-    top: 1010px;
+    top: 945px;
     left: 690px;
 	font-size: 0.7em;
 }
@@ -224,7 +224,7 @@ body{
 
 #saveMatrixDes{
     position:absolute;
-    top: 1010px;
+    top: 945px;
     left: 720px;
 	font-size: 0.7em;
 }
@@ -470,7 +470,7 @@ body{
 
 #totalWeightCarried{
     position:absolute;
-    top: 950px;
+    top: 945px;
     left: 660px;
 	font-size: 0.6em;
     width: 260px;
@@ -777,72 +777,72 @@ body{
 
 #turnUndeadTitle{
     position:absolute;
-    top: 995px;
-    left: 95px;
+    top: 925px;
+    left: 340px;
 	font-size: 0.5em;
 }
 
 #turnHeader1{
     position:absolute;
-    top: 1010px;
-    left: 95px;
+    top: 945px;
+    left: 340px;
 	font-size: 0.6em;
 }
 
 #turnHeader2{
     position:absolute;
-    top: 1010px;
-    left: 135px;
+    top: 945px;
+    left: 380px;
 	font-size: 0.6em;
 }
 
 #turnHeader3{
     position:absolute;
-    top: 1010px;
-    left: 165px;
+    top: 945px;
+    left: 420px;
 	font-size: 0.6em;
 }
 
 
 #turnHeader4{
     position:absolute;
-    top: 1010px;
-    left: 200px;
+    top: 945px;
+    left: 460px;
 	font-size: 0.6em;
 }
 
 #turnHeader5{
     position:absolute;
-    top: 1010px;
-    left: 235px;
+    top: 945px;
+    left: 500px;
 	font-size: 0.6em;
 }
 
 #turnHeader6{
     position:absolute;
-    top: 1010px;
-    left: 270px;
+    top: 945px;
+    left: 540px;
 	font-size: 0.6em;
 }
 
 #turnHeader7{
     position:absolute;
-    top: 1010px;
-    left: 305px;
+    top: 945px;
+    left: 580px;
 	font-size: 0.6em;
 }
 
 #turnHeader8{
     position:absolute;
-    top: 1010px;
-    left: 340px;
+    top: 945px;
+    left: 620px;
 	font-size: 0.6em;
 }
 
 #turnHeader9{
     position:absolute;
-    top: 1010px;
-    left: 375px;
+    top: 945px;
+    left: 660px;
 	font-size: 0.6em;
 }
 
@@ -850,29 +850,29 @@ body{
 
 #turnHeader10{
     position:absolute;
-    top: 1010px;
-    left: 408px;
+    top: 945px;
+    left: 700px;
 	font-size: 0.6em;
 }
 
 #turnHeader11{
     position:absolute;
-    top: 1010px;
-    left: 446px;
+    top: 945px;
+    left: 740px;
 	font-size: 0.6em;
 }
 
 #turnHeader12{
     position:absolute;
-    top: 1010px;
-    left: 503px;
+    top: 945px;
+    left: 780px;
 	font-size: 0.6em;
 }
 
 #turnLine{
     position:absolute;
     top: 1011px;
-    left: 95px;
+    left: 340px;
 	font-size: 0.6em;
 }
 
@@ -881,14 +881,14 @@ body{
 #turnAbility1{
     position:absolute;
     top: 1031px;
-    left: 135px;
+    left: 380px;
 	font-size: 0.6em;
 }
 
 #turnAbility2{
     position:absolute;
     top: 1031px;
-    left: 165px;
+    left: 420px;
 	font-size: 0.6em;
 }
 
@@ -896,42 +896,42 @@ body{
 #turnAbility3{
     position:absolute;
     top: 1031px;
-    left: 200px;
+    left: 460px;
 	font-size: 0.6em;
 }
 
 #turnAbility4{
     position:absolute;
     top: 1031px;
-    left: 235px;
+    left: 500px;
 	font-size: 0.6em;
 }
 
 #turnAbility5{
     position:absolute;
     top: 1031px;
-    left: 270px;
+    left: 540px;
 	font-size: 0.6em;
 }
 
 #turnAbility6{
     position:absolute;
     top: 1031px;
-    left: 305px;
+    left: 580px;
 	font-size: 0.6em;
 }
 
 #turnAbility7{
     position:absolute;
     top: 1031px;
-    left: 340px;
+    left: 620px;
 	font-size: 0.6em;
 }
 
 #turnAbility8{
     position:absolute;
     top: 1031px;
-    left: 375px;
+    left: 660px;
 	font-size: 0.6em;
 }
 
@@ -940,21 +940,21 @@ body{
 #turnAbility9{
     position:absolute;
     top: 1031px;
-    left: 412px;
+    left: 700px;
 	font-size: 0.6em;
 }
 
 #turnAbility10{
     position:absolute;
     top: 1031px;
-    left: 454px;
+    left: 740px;
 	font-size: 0.6em;
 }
 
 #turnAbility11{
     position:absolute;
     top: 1031px;
-    left: 503px;
+    left: 780px;
 	font-size: 0.6em;
 }
 
