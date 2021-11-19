@@ -5,38 +5,15 @@
 function spellLevels ($level)
 {
     
-    $spells = array("", "", "", "", "");
-    
-    if($level >= 2 && $level <=3)
-    {
-        $spells = array("1", "", "", "", "");
-    }
-    else if($level ==4)
-    {
-        $spells = array("1", "2", "", "", "");
-    }
-    else if($level ==5)
-    {
-        $spells = array("1", "2", "3", "", "");
-    }
-    else if($level ==6)
-    {
-        $spells = array("1", "2", "3", "4", "");
-    }
-    else if($level >= 7)
-    {
-        $spells = array("1", "2", "3", "4", "5");
-    }
+    $spells = array("1", "2", "3", "4", "5");
     
     return $spells;
-    
-    
 }
 
 function spellLine ($level)
 {
     
-    $line = "";
+    $line = "-";
 
     if($level >= 2 && $level <=3)
     {
@@ -66,27 +43,27 @@ function spellLine ($level)
 
 function spellsEachLevel ($level)
 {
-    $spells = array("", "", "", "", "");
+    $spells = array("-", "-", "-", "-", "-");
   
     if($level == 2)
     {
-            $spells = array("1", "", "", "", "");   
+            $spells = array("1", "-", "-", "-", "-");   
     }
     else if($level == 3)
     {
-            $spells = array("2", "", "", "", "");   
+            $spells = array("2", "-", "-", "-", "-");   
     }
     else if($level == 4)
     {
-            $spells = array("2", "1", "", "", "");   
+            $spells = array("2", "1", "-", "-", "-");   
     }
     else if($level == 5)
     {
-            $spells = array("2", "2", "1", "", "");   
+            $spells = array("2", "2", "1", "-", "-");   
     }
     else if($level == 6)
     {
-            $spells = array("2", "2", "1", "1", "");   
+            $spells = array("2", "2", "1", "1", "-");   
     }
     else if($level == 7)
     {
@@ -110,11 +87,11 @@ function spellsEachLevel ($level)
 
 function spellHeader1 ($level)
 {
-    $header = "";
+    $header = "-";
     
     if($level > 1)
     {
-        $header = "Spell Level:";
+        $header = "Spell Lv:";
     }
     
     return $header;
@@ -122,11 +99,11 @@ function spellHeader1 ($level)
 
 function spellHeader2 ($level)
 {
-    $header = "";
+    $header = "-";
     
     if($level > 1)
     {
-        $header = "Spells per level:";
+        $header = "Spells:";
     }
     
     return $header;

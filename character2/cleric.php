@@ -374,7 +374,6 @@
     $spellLevel4 = spellLevels($level)[3];
     $spellLevel5 = spellLevels($level)[4];
     
-    $spellLine = spellLine ($level);
     
     $spellsForLevel1 = spellsEachLevel($level)[0];
     $spellsForLevel2 = spellsEachLevel($level)[1];
@@ -399,7 +398,7 @@
     $turnHeader11 = turnHeader ($level)[10];
     $turnHeader12 = turnHeader ($level)[11];
     
-    $turnLine = turnLine ($level);
+    //$turnLine = turnLine ($level);
     
     $turnAbility1 = turnAbility ($level)[0];
     $turnAbility2 = turnAbility ($level)[1];
@@ -895,6 +894,9 @@
        </span>
        
        
+       <span id="spellTitle">SPELLS PER LEVEL:</span>
+       
+
        <span id=spellLevelTitle>
            <?php
            echo $spellLevelTitle;
@@ -939,13 +941,6 @@
            ?>
        </span>       
        
-       <span id="spellLine">
-       
-           <?php
-           echo $spellLine;
-           ?>
-           
-       </span>
        
        
        <span id="spellsForLevel1">
@@ -1054,10 +1049,26 @@
             ?>
        </span>
        
+
+       <span id="spellLine">
+       
+       <?php
+           echo "___________________________________";
+           ?>
+       </span>
+       
+       
        <span id="turnLine">
        
        <?php
-           echo $turnLine;
+           echo "___________________________________";
+           ?>
+       </span>
+
+       <span id="turnLine2">
+       
+       <?php
+           echo "___________________________________";
            ?>
        </span>
        

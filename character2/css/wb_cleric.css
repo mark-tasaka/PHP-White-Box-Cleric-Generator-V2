@@ -666,120 +666,121 @@ body{
 
 
 
+#spellTitle{
+    position:absolute;
+    top: 1045px;
+    left: 340px;
+	font-size: 0.6em;
+}
+
 #spellLevelTitle{
     position:absolute;
-    top: 1059px;
-    left: 121px;
+    top: 1065px;
+    left: 340px;
 	font-size: 0.6em;
 }
 
 #spellNumberTitle{
     position:absolute;
-    top: 1079px;
-    left: 95px;
+    top: 1085px;
+    left: 340px;
 	font-size: 0.6em;
 }
 
 #spellsLevel1{
     position:absolute;
-    top: 1059px;
-    left: 220px;
+    top: 1065px;
+    left: 420px;
 	font-size: 0.6em;
 }
 
 
 #spellsLevel2{
     position:absolute;
-    top: 1059px;
-    left: 260px;
+    top: 1065px;
+    left: 460px;
 	font-size: 0.6em;
 }
 
 #spellsLevel3{
     position:absolute;
-    top: 1059px;
-    left: 300px;
+    top: 1065px;
+    left: 500px;
 	font-size: 0.6em;
 }
 
 #spellsLevel4{
     position:absolute;
-    top: 1059px;
-    left: 342px;
+    top: 1065px;
+    left: 540px;
 	font-size: 0.6em;
 }
 
 #spellsLevel5{
     position:absolute;
-    top: 1059px;
-    left: 386px;
+    top: 1065px;
+    left: 580px;
 	font-size: 0.6em;
 }
-
+/*
 #spellsLevel6{
     position:absolute;
-    top: 1059px;
-    left: 428px;
+    top: 1065px;
+    left: 580px;
 	font-size: 0.6em;
-}
+}*/
 
-#spellLine{
-    position:absolute;
-    top: 1062px;
-    left: 205px;
-	font-size: 0.6em;
-    font-weight: bold;
-}
 
 
 #spellsForLevel1{
     position:absolute;
-    top: 1080px;
-    left: 220px;
+    top: 1085px;
+    left: 420px;
 	font-size: 0.6em;
 }
 
 
 #spellsForLevel2{
     position:absolute;
-    top: 1080px;
-    left: 260px;
+    top: 1085px;
+    left: 460px;
 	font-size: 0.6em;
 }
 
 #spellsForLevel3{
     position:absolute;
-    top: 1080px;
-    left: 300px;
+    top: 1085px;
+    left: 500px;
 	font-size: 0.6em;
 }
 
 #spellsForLevel4{
     position:absolute;
-    top: 1080px;
-    left: 342px;
+    top: 1085px;
+    left: 540px;
 	font-size: 0.6em;
 }
 
 #spellsForLevel5{
     position:absolute;
-    top: 1080px;
-    left: 386px;
+    top: 1085px;
+    left: 580px;
 	font-size: 0.6em;
 }
 
+/*
 #spellsForLevel6{
     position:absolute;
     top: 1080px;
     left: 428px;
 	font-size: 0.6em;
-}
+}*/
 
 #turnUndeadTitle{
     position:absolute;
     top: 925px;
     left: 340px;
-	font-size: 0.5em;
+	font-size: 0.6em;
 }
 
 #turnHeader1{
@@ -834,15 +835,15 @@ body{
 
 #turnHeader8{
     position:absolute;
-    top: 945px;
-    left: 620px;
+    top: 1000px;
+    left: 380px;
 	font-size: 0.6em;
 }
 
 #turnHeader9{
     position:absolute;
-    top: 945px;
-    left: 660px;
+    top: 1000px;
+    left: 420px;
 	font-size: 0.6em;
 }
 
@@ -850,44 +851,64 @@ body{
 
 #turnHeader10{
     position:absolute;
-    top: 945px;
-    left: 700px;
+    top: 1000px;
+    left: 460px;
 	font-size: 0.6em;
 }
 
 #turnHeader11{
     position:absolute;
-    top: 945px;
-    left: 740px;
+    top: 1000px;
+    left: 500px;
 	font-size: 0.6em;
 }
 
 #turnHeader12{
     position:absolute;
-    top: 945px;
-    left: 780px;
+    top: 1000px;
+    left: 540px;
 	font-size: 0.6em;
 }
 
+
+
 #turnLine{
     position:absolute;
-    top: 1011px;
+    top: 950px;
+    left: 340px;
+	font-size: 0.6em;
+}
+
+
+#turnLine2{
+    position:absolute;
+    top: 1002px;
     left: 340px;
 	font-size: 0.6em;
 }
 
 
 
+#spellLine{
+    position:absolute;
+    top: 1067px;
+    left: 340px;
+	font-size: 0.6em;
+}
+
+
+
+
 #turnAbility1{
     position:absolute;
-    top: 1031px;
+    top: 970px;
     left: 380px;
 	font-size: 0.6em;
 }
 
 #turnAbility2{
     position:absolute;
-    top: 1031px;
+    top: 970px;
     left: 420px;
 	font-size: 0.6em;
 }
@@ -895,43 +916,43 @@ body{
 
 #turnAbility3{
     position:absolute;
-    top: 1031px;
+    top: 970px;
     left: 460px;
 	font-size: 0.6em;
 }
 
 #turnAbility4{
     position:absolute;
-    top: 1031px;
+    top: 970px;
     left: 500px;
 	font-size: 0.6em;
 }
 
 #turnAbility5{
     position:absolute;
-    top: 1031px;
+    top: 970px;
     left: 540px;
 	font-size: 0.6em;
 }
 
 #turnAbility6{
     position:absolute;
-    top: 1031px;
+    top: 970px;
     left: 580px;
 	font-size: 0.6em;
 }
 
 #turnAbility7{
     position:absolute;
-    top: 1031px;
-    left: 620px;
+    top: 1020px;
+    left: 380px;
 	font-size: 0.6em;
 }
 
 #turnAbility8{
     position:absolute;
-    top: 1031px;
-    left: 660px;
+    top: 1020px;
+    left: 420px;
 	font-size: 0.6em;
 }
 
@@ -939,22 +960,22 @@ body{
 
 #turnAbility9{
     position:absolute;
-    top: 1031px;
-    left: 700px;
+    top: 1020px;
+    left: 460px;
 	font-size: 0.6em;
 }
 
 #turnAbility10{
     position:absolute;
-    top: 1031px;
-    left: 740px;
+    top: 1020px;
+    left: 500px;
 	font-size: 0.6em;
 }
 
 #turnAbility11{
     position:absolute;
-    top: 1031px;
-    left: 780px;
+    top: 1020px;
+    left: 540px;
 	font-size: 0.6em;
 }
 
